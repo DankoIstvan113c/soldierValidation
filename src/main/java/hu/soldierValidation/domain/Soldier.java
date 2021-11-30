@@ -16,7 +16,7 @@ public class Soldier {
     private String rank;
     private Date birth;
     private String weapon;
-    @AssertTrue(message="It would be better, than being alive")
+    @AssertTrue(message="It would be better being alive")
     private boolean alive;
     @Max(value=100, message="You must be retired now")
     private int shotpeople;
